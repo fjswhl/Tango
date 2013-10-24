@@ -24,6 +24,7 @@
 
 - (void)searchFilesOniCloud;
 @property (weak, nonatomic) IBOutlet UILabel *completionDate;
+@property (weak, nonatomic) IBOutlet UILabel *countDown;
 
 @end
 
@@ -195,6 +196,13 @@
     }else{
         NSLog(@"resetStudyProgress failed");
     }
+}
+
+- (IBAction)countDownChanged:(UISlider *)sender {
+    float value = sender.value;
+    NSInteger countDown = value * 16;
+    self.countDown.text = [NSString stringWithFormat:@"%ld秒", (long)countDown];
+    [[NSUserDefaults standardUserDefaults] setInteger:countDown forKey:@"countDown"];
 }
 @end
 

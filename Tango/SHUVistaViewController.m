@@ -227,7 +227,11 @@
         [_timeLimitProgress setProgress:0 animated:YES];
     }
     
-    _timeLimitProgress.progress += 0.1;
+    NSInteger countDown = [[NSUserDefaults standardUserDefaults] integerForKey:@"countDown"];
+    if (countDown == 0) {
+        countDown = 8;
+    }
+    _timeLimitProgress.progress += (10.0f / (float)countDown / 10.0f);
 }
 
 - (IBAction)isTooEasy:(id)sender{

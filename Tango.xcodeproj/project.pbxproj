@@ -39,6 +39,7 @@
 		3E4ED9A41810240400B4EA7F /* SHUWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9891810240400B4EA7F /* SHUWelcomeViewController.m */; };
 		3E4ED9A51810240400B4EA7F /* SHUWordMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED98B1810240400B4EA7F /* SHUWordMenuViewController.m */; };
 		3E4ED9A91810243100B4EA7F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4ED9A81810243100B4EA7F /* libsqlite3.dylib */; };
+		3E4F3DFF181945590062E63B /* high-volume-vector副本2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4F3DFE181945590062E63B /* high-volume-vector副本2.png */; };
 		3E6AD23C181912570075015F /* CXAlertBackgroundWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AD22E181912570075015F /* CXAlertBackgroundWindow.m */; };
 		3E6AD23D181912570075015F /* CXAlertButtonContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AD230181912570075015F /* CXAlertButtonContainerView.m */; };
 		3E6AD23E181912570075015F /* CXAlertButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AD232181912570075015F /* CXAlertButtonItem.m */; };
@@ -145,6 +146,7 @@
 		3E4ED98A1810240400B4EA7F /* SHUWordMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHUWordMenuViewController.h; path = Tango/SHUWordMenuViewController.h; sourceTree = "<group>"; };
 		3E4ED98B1810240400B4EA7F /* SHUWordMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHUWordMenuViewController.m; path = Tango/SHUWordMenuViewController.m; sourceTree = "<group>"; };
 		3E4ED9A81810243100B4EA7F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3E4F3DFE181945590062E63B /* high-volume-vector副本2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "high-volume-vector副本2.png"; sourceTree = "<group>"; };
 		3E6AD22D181912570075015F /* CXAlertBackgroundWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAlertBackgroundWindow.h; sourceTree = "<group>"; };
 		3E6AD22E181912570075015F /* CXAlertBackgroundWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAlertBackgroundWindow.m; sourceTree = "<group>"; };
 		3E6AD22F181912570075015F /* CXAlertButtonContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAlertButtonContainerView.h; sourceTree = "<group>"; };
@@ -493,6 +495,7 @@
 		A22D5088181434AC0021E7B5 /* Pic */ = {
 			isa = PBXGroup;
 			children = (
+				3E4F3DFE181945590062E63B /* high-volume-vector副本2.png */,
 				A22D50B7181448650021E7B5 /* bgPic.png */,
 				A22D50BB181450060021E7B5 /* bgPic2.png */,
 				A22D50B918144E9E0021E7B5 /* Welcome.png */,
@@ -656,6 +659,7 @@
 				A22D50A2181434B80021E7B5 /* high-volume-vector.png in Resources */,
 				3E4ED9901810240400B4EA7F /* data2.sqlite in Resources */,
 				A22D50AF181434B80021E7B5 /* 图标 2.png in Resources */,
+				3E4F3DFF181945590062E63B /* high-volume-vector副本2.png in Resources */,
 				A22D50B5181434B80021E7B5 /* 图标4 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
