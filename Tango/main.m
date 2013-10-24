@@ -2,17 +2,17 @@
 //  main.m
 //  Tango
 //
-//  Created by Lin on 13-10-17.
-//  Copyright (c) 2013年 Lin. All rights reserved.
+//  Created by Shuyu on 13-10-8.
+//  Copyright (c) 2013年 Shuyu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
+#import "SHUAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([SHUAppDelegate class]));
     }
 }
