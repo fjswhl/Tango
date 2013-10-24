@@ -91,6 +91,27 @@
     return self;
 }
 
+- (id)initWithWordID:(int)wordID chineseWord:(NSString *)chineseWord japaneseWord:(NSString *)japaneseWord wordClass:(NSString *)wordClass kara:(NSString *)kara egSentence:(NSString *)egSentence{
+    if (self = [super init]) {
+        self.wordClass = wordClass;
+        self.wordID = wordID;
+        self.chineseWord = chineseWord;
+        self.japaneseWord = japaneseWord;
+        self.pronunceKara = kara;
+        self.egSentenceInJpn = egSentence;
+    }
+    return self;
+}
+
+- (NSString *)stringRepresentation{
+    NSString *result = nil;
+    if (self.japaneseWord == nil) {
+        result = self.pronunceKara;
+    }else{
+        result = [NSString stringWithFormat:@"%@(%@)", self.japaneseWord, self.pronunceKara];
+    }
+    return result;
+}
 
 
 

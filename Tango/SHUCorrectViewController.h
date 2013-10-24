@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "HLWords.h"
+#import "HLOptionButton.h"
 
 @interface SHUCorrectViewController : UIViewController
 
@@ -24,4 +25,6 @@
 - (NSString *)translateString:(NSString *)string;
 
 - (IBAction)viewTranslation:(UIButton *)sender;
+
+
 @end

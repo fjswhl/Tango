@@ -29,7 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,6 +39,23 @@
 }
 
 #pragma mark - Table view data source
+
+#pragma mark - Table view Delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+{
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    
+    
+    if (!cell.accessoryType) {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    }else{
+        cell.accessoryType = UITableViewCellAccessoryNone;
+    }
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 
 
 

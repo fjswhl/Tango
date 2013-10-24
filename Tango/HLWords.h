@@ -41,4 +41,6 @@ typedef enum {
 
 
 - (id)initWithConditons:(Conditions)condition;
+- (id)initWithWordID:(int)wordID chineseWord:(NSString *)chineseWord japaneseWord:(NSString *)japaneseWord wordClass:(NSString *)wordClass kara:(NSString *)kara egSentence:(NSString *)egSentence;
+- (NSString *)stringRepresentation;
 @end

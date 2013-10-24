@@ -9,11 +9,14 @@
 #import "SHUNoteViewController.h"
 #import "SHURootViewController.h"
 #import "SHUListeningViewController.h"
+#import "SHUCorrectViewController.h"
 #import "SHUAppDelegate.h"
 #import "HLOptionContent.h"
 
 
 @interface SHUNoteViewController ()
+
+@property (nonatomic) int rowForRight;
 
 @end
 
@@ -31,7 +34,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
     [self fetchWordsInDatabase:[SHUAppDelegate sharedDatabase]];
 }
 
@@ -52,9 +55,13 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    SHUListeningViewController *nextVC = [segue destinationViewController];
-    
-    nextVC.wordsArray = _wordsInWordNote;
+    if ([segue.identifier isEqualToString:@"SegueToListening"]) {
+        SHUListeningViewController *nextVC = [segue destinationViewController];
+        nextVC.wordsArray = _wordsInWordNote;
+    }else{
+        SHUCorrectViewController *nextvc = [segue destinationViewController];
+        nextvc.rightWords = [_wordsInWordNote objectAtIndex:_rowForRight];
+    }
 }
 
 #pragma mark - Table view data source
@@ -72,11 +79,19 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"rawWord"];
-    HLOptionContent *content = [self.wordsInWordNote objectAtIndex:indexPath.row];
+    HLWords *content = [self.wordsInWordNote objectAtIndex:indexPath.row];
     cell.textLabel.text = [content stringRepresentation];
     return cell;
 }
 
+#pragma mark - Table view delagete
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+{
+    _rowForRight = indexPath.row;
+    
+    [self performSegueWithIdentifier:@"SegueToRightForNote" sender:self];
+}
 
 - (IBAction)backToMenu:(id)sender {
     [self.sideMenuHolder showMenu];
@@ -88,7 +103,7 @@
     if (self.wordsInWordNote == nil) {
         self.wordsInWordNote = [[NSMutableArray alloc] init];
     }
-    const char *query = "select word_id,japanese_word,kana,chinese_word from word_tbl where inWordNote = 1;";
+    const char *query = "select word_id,japanese_word,kana,chinese_word,word_class,eg_sentence from word_tbl where inWordNote = 1;";
     sqlite3_stmt *queryStmt;
     if (sqlite3_prepare_v2(database, query, -1, &queryStmt, NULL) == SQLITE_OK) {
         while (sqlite3_step(queryStmt) == SQLITE_ROW) {
@@ -100,8 +115,10 @@
             }
             NSString *kara = [NSString stringWithUTF8String:(const char *)sqlite3_column_text(queryStmt, 2)];
             NSString *chineseWord = [NSString stringWithUTF8String:(const char *)sqlite3_column_text(queryStmt, 3)];
+            NSString *wordClass = [NSString stringWithUTF8String:(const char *)sqlite3_column_text(queryStmt, 4)];
+            NSString *egSentence = [NSString stringWithUTF8String:(const char *)sqlite3_column_text(queryStmt, 5)];
             
-            HLOptionContent *aWord = [[HLOptionContent alloc] initWithWordID:wordID kara:kara japaneseWord:japaneseWord chineseWord:chineseWord];
+            HLWords *aWord = [[HLWords alloc] initWithWordID:wordID chineseWord:chineseWord japaneseWord:japaneseWord wordClass:wordClass kara:kara egSentence:egSentence];
             [self.wordsInWordNote addObject:aWord];
         }
     }else{
@@ -109,6 +126,7 @@
     }
 }
 @end
+
 
 
 

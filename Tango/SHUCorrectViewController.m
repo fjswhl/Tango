@@ -8,6 +8,7 @@
 
 #import "SHUCorrectViewController.h"
 #import "SHUAppDelegate.h"
+#import <AVFoundation/AVFoundation.h>
 @interface SHUCorrectViewController ()
 
 @property (weak, nonatomic) IBOutlet UIButton *transButton;
@@ -107,6 +108,23 @@
         });
     });
 }
+
+- (IBAction)speak:(UIButton *)sender {
+    [self speechWithString:self.rightWords.pronunceKara];
+}
+
+- (void)speechWithString:(NSString *)string{
+    AVSpeechUtterance *speechUtterance = [AVSpeechUtterance speechUtteranceWithString:string];
+    speechUtterance.rate = 0.2;
+    
+    
+    AVSpeechSynthesisVoice *voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"ja-JP"];
+    speechUtterance.voice = voice;
+    
+    AVSpeechSynthesizer *synthesizer = [[AVSpeechSynthesizer alloc] init];
+    [synthesizer speakUtterance:speechUtterance];
+}
+
 @end
 
 
