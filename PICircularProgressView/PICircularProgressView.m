@@ -23,13 +23,11 @@
         [appearance setShowShadow:NO];
         
         [appearance setThicknessRatio:0.37f];
-        
-        [appearance setInnerBackgroundColor:nil];
-        [appearance setOuterBackgroundColor:[UIColor lightGrayColor]];
-        
+        [appearance setInnerBackgroundColor:[UIColor clearColor]];
+        [appearance setOuterBackgroundColor:[UIColor colorWithRed:1.0f green:0.47f blue:0.49f alpha:1.0f]];
         [appearance setTextColor:[UIColor blackColor]];
         [appearance setFont:[UIFont systemFontOfSize:10]];
-        [appearance setProgressFillColor:[UIColor blackColor]];
+        [appearance setProgressFillColor:[UIColor colorWithRed:57.0/255.0 green:250.0/255.0 blue:161.0/255.0 alpha:1.0]];
         
         [appearance setProgressTopGradientColor:[UIColor colorWithRed:15.0/255.0 green:97.0/255.0 blue:189.0/255.0 alpha:1.0]];
         [appearance setProgressBottomGradientColor:[UIColor colorWithRed:114.0/255.0 green:174.0/255.0 blue:235.0/255.0 alpha:1.0]];

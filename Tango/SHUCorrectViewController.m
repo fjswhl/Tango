@@ -36,9 +36,6 @@
     _pronunceKara.text = _rightWords.pronunceKara;
     _egSentenceInJpn.text = _rightWords.egSentenceInJpn;
     _wordClass.text = _rightWords.wordClass;
-
-
-
 }
 
 
@@ -110,8 +107,9 @@
 }
 
 - (IBAction)speak:(UIButton *)sender {
-    [self speechWithString:self.rightWords.pronunceKara];
+    [self speechWithString:_rightWords.japaneseWord];
 }
+
 
 - (void)speechWithString:(NSString *)string{
     AVSpeechUtterance *speechUtterance = [AVSpeechUtterance speechUtteranceWithString:string];

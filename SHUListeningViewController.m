@@ -7,7 +7,7 @@
 //
 
 #import "SHUListeningViewController.h"
-#import "HLOptionContent.h"
+#import "HLWords.h"
 
 
 #define JP_VOICE @"ja-JP"
@@ -16,7 +16,7 @@
 @interface SHUListeningViewController ()
 
 @property (strong, nonatomic) NSTimer *timerLimit;
-@property (strong, nonatomic) HLOptionContent *currentWord;
+@property (strong, nonatomic) HLWords *currentWord;
 @property (nonatomic) BOOL isListeningOver;
 
 @end
@@ -58,9 +58,9 @@
         /*  不会  */
         
         _feedBack.text = @"看来你不会";
-        _correctAnswer.text = _currentWord.kara;
+        _correctAnswer.text = _currentWord.pronunceKara;
         _isListeningOver = YES;
-        [self speechWithString:_currentWord.kara inLanguage:JP_VOICE];
+        [self speechWithString:_currentWord.pronunceKara inLanguage:JP_VOICE];
         
     }
 }
@@ -83,7 +83,7 @@
 
 - (IBAction)checkAnswer:(id)sender {
     
-    if ([_answerSheet.text isEqualToString:_currentWord.japaneseWord] || [_answerSheet.text isEqualToString:_currentWord.kara]){
+    if ([_answerSheet.text isEqualToString:_currentWord.japaneseWord] || [_answerSheet.text isEqualToString:_currentWord.pronunceKara]){
         
         _feedBack.text = @"正确";
         
@@ -91,10 +91,10 @@
         _feedBack.text = @"错误";
     }
     
-    _correctAnswer.text = _currentWord.kara;
+    _correctAnswer.text = _currentWord.pronunceKara;
     _isListeningOver = YES;
     
-    [self speechWithString:_currentWord.kara inLanguage:JP_VOICE];
+    [self speechWithString:_currentWord.pronunceKara inLanguage:JP_VOICE];
     
     /*   然后查看代理方法   */
 }

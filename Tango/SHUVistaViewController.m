@@ -90,7 +90,7 @@
     /*      Segue回调传值 := SHUWords当前背诵       */
     if ([segue.identifier isEqualToString:@"SegueToRight"]){
         SHUCorrectViewController* correctVC = [segue destinationViewController];
-        correctVC.rightWords = self.word;
+        correctVC.rightWords = _word;
     }
 }
 
@@ -174,6 +174,7 @@
     self.word = aWord;                                  //  同时把这里新生成的单词赋给自身的word属性，以便于进入correctView时获取数据
     _wordNow.text = aWord.chineseWord;
     
+    
     NSArray *chnForJpan = @[_chnForJP_1,_chnForJP_2,_chnForJP_3,_chnForJP_4];
     NSArray *kanForJpan = @[_kanForJP_1,_kanForJP_2,_kanForJP_3,_kanForJP_4];
     
@@ -190,12 +191,17 @@
             tmpLabel_chn.text = aOptionContent.japaneseWord;
             tmpLabel_jpn.text = aOptionContent.kara;
             
+            [tmpLabel_chn sizeToFit];
+            [tmpLabel_jpn sizeToFit];
+            
         }else{
             UILabel *tmpLabel_chn = [chnForJpan objectAtIndex:i];
             UILabel *tmpLabel_jpn = [kanForJpan objectAtIndex:i];
             tmpLabel_chn.text = aOptionContent.kara;
             tmpLabel_jpn.text = aOptionContent.kara;
             
+            [tmpLabel_chn sizeToFit];
+            [tmpLabel_jpn sizeToFit];
         }
     }
     

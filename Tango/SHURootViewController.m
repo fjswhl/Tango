@@ -42,8 +42,6 @@
 {
     if (!self.sideMenu){
         
-        NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"bgPic" ofType:@"PNG"];
-        
         RESideMenuItem *reviewItem = [[RESideMenuItem alloc] initWithTitle:@"回顾" action:^(RESideMenu *menu, RESideMenuItem *item){
             UINavigationController *navVC = [self.storyboard instantiateViewControllerWithIdentifier:@"VistaMenu"];
             [menu setRootViewController:navVC];
