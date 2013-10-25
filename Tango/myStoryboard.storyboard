@@ -1063,7 +1063,7 @@ COiDjOipnuS4rQ
                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" placeholderIntrinsicWidth="235" placeholderIntrinsicHeight="2" progressImage="6354E056-FC27-4545-997D-CB4F0BA53B05" translatesAutoresizingMaskIntoConstraints="NO" id="XLV-Sn-YcK">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" placeholderIntrinsicWidth="235" placeholderIntrinsicHeight="2" progressImage="19D90A55-0789-4BA9-93FB-8A50B24F0AF8" translatesAutoresizingMaskIntoConstraints="NO" id="XLV-Sn-YcK">
                                 <rect key="frame" x="40" y="501" width="235" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1133,7 +1133,7 @@ COiDjOipnuS4rQ
         </scene>
     </scenes>
     <resources>
-        <image name="6354E056-FC27-4545-997D-CB4F0BA53B05" width="400" height="400">
+        <image name="19D90A55-0789-4BA9-93FB-8A50B24F0AF8" width="400" height="400">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw

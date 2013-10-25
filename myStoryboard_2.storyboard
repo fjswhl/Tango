@@ -966,7 +966,7 @@ COiDjOipnuS4rQ
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" placeholderIntrinsicWidth="235" placeholderIntrinsicHeight="2" progressImage="4B08C113-E949-4D09-B5DF-374B0AFC3169" translatesAutoresizingMaskIntoConstraints="NO" id="A0l-Kn-TX3">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" placeholderIntrinsicWidth="235" placeholderIntrinsicHeight="2" progressImage="568A3568-7BEA-4E01-949F-51EA8533F702" translatesAutoresizingMaskIntoConstraints="NO" id="A0l-Kn-TX3">
                                 <rect key="frame" x="40" y="502" width="235" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1078,7 +1078,7 @@ COiDjOipnuS4rQ
         </scene>
     </scenes>
     <resources>
-        <image name="4B08C113-E949-4D09-B5DF-374B0AFC3169" width="400" height="400">
+        <image name="568A3568-7BEA-4E01-949F-51EA8533F702" width="400" height="400">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw

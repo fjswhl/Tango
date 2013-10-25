@@ -12,7 +12,7 @@
 @interface SHUWelcomeViewController ()
 
 @property (nonatomic) int requiredStudiedToday;
-
+@property (nonatomic) int requiredMasteredToday;
 - (IBAction)backToMenu:(id)sender;
 - (IBAction)startRecint:(id)sender;
 
@@ -170,9 +170,13 @@
     int numberOfWordsTotal = [self numberOfWordsTotal];
     int numberOfWordsStudiedTotal = [self numberOfWordsStudiedTotal];
     int numberOfWordsStudiedToday = [self numberOfWordsStudiedToday];
-    
+    int numberOfWordsMasteredToday = [self numberOfWordsMasteredToday];
+    int numberOfWordsMasteredTotal = [self numberOfWordsMasteredTotal];
     _requiredStudiedToday = (numberOfWordsTotal - numberOfWordsStudiedTotal) / daysInterval;
-    _todayProgress.progress = (float)numberOfWordsStudiedToday / (float)_requiredStudiedToday;
+    _requiredMasteredToday = (numberOfWordsTotal - numberOfWordsMasteredTotal) / daysInterval;
+    
+    
+    _todayProgress.progress = ((float)numberOfWordsMasteredToday / (float)_requiredMasteredToday) + ((float)numberOfWordsStudiedToday / (float)_requiredStudiedToday / 10);
 }
 @end
 
