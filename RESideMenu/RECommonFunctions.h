@@ -1,5 +1,5 @@
 //
-// RESideMenuItem.h
+// RECommonFunctions.h
 // RESideMenu
 //
 // Copyright (c) 2013 Roman Efimov (https://github.com/romaonthego)
@@ -25,19 +25,23 @@
 
 #import <Foundation/Foundation.h>
 
-@class RESideMenu;
+#ifndef REUIKitIsFlatModeFunction
+#define REUIKitIsFlatModeFunction
+BOOL REUIKitIsFlatMode();
+#endif
 
-@interface RESideMenuItem : NSObject
+#ifndef kCFCoreFoundationVersionNumber_iOS_6_1
+#define kCFCoreFoundationVersionNumber_iOS_6_1 793.00
+#endif
 
-@property (copy, readwrite, nonatomic) NSString *title;
-@property (strong, readwrite, nonatomic) UIImage *image;
-@property (strong, readwrite, nonatomic) UIImage *highlightedImage;
-@property (assign, readwrite, nonatomic) NSInteger tag;
-@property (copy, readwrite, nonatomic) void (^action)(RESideMenu *menu, RESideMenuItem *item);
+#if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_6_1
+#define IF_IOS7_OR_GREATER(...) \
+if (kCFCoreFoundationVersionNumber > kCFCoreFoundationVersionNumber_iOS_6_1) \
+{ \
+__VA_ARGS__ \
+}
+#else
+#define IF_IOS7_OR_GREATER(...)
+#endif
 
-@property (strong, readwrite, nonatomic) NSArray *subItems;
-
-- (id)initWithTitle:(NSString *)title action:(void(^)(RESideMenu *menu, RESideMenuItem *item))action;
-- (id)initWithTitle:(NSString *)title image:(UIImage *)image highlightedImage:(UIImage *)highlightedImage action:(void(^)(RESideMenu *menu, RESideMenuItem *item))action;
-
-@end
+BOOL REDeviceIsUIKit7() __attribute__ ((deprecated));

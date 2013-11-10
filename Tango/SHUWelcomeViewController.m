@@ -70,7 +70,7 @@
 
 
 - (IBAction)backToMenu:(id)sender {
-    [self showMenu];
+    [self.sideMenuViewController presentMenuViewController];
 }
 
 - (IBAction)startRecint:(id)sender {
@@ -176,7 +176,7 @@
     _requiredMasteredToday = (numberOfWordsTotal - numberOfWordsMasteredTotal) / daysInterval;
     
     
-    _todayProgress.progress = ((float)numberOfWordsMasteredToday / (float)_requiredMasteredToday) + ((float)numberOfWordsStudiedToday / (float)_requiredStudiedToday / 10);
+    _todayProgress.progress = ((float)numberOfWordsMasteredToday / (float)_requiredMasteredToday) + ((float)numberOfWordsStudiedToday / (float)_requiredStudiedToday / 15);
 }
 @end
 

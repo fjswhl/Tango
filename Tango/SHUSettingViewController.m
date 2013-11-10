@@ -7,7 +7,6 @@
 //
 
 #import "SHUSettingViewController.h"
-#import "SHURootViewController.h"
 #import "SHUCloudDocument.h"
 #import "SHUAppDelegate.h"
 #import "CXAlertView.h"
@@ -134,7 +133,7 @@
 }
 
 - (IBAction)backToMenu:(id)sender {
-    [self.sideMenuHolder showMenu];
+    [self.sideMenuViewController presentMenuViewController];
 }
 
 #pragma mark - table view delegate

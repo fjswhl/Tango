@@ -36,7 +36,7 @@
 }
 
 - (IBAction)bacoToMenu:(id)sender {
-    [self showMenu];
+    [self.sideMenuViewController presentMenuViewController];
 }
 
 @end

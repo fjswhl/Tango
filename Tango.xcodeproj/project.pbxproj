@@ -22,18 +22,10 @@
 		3E4ED9921810240400B4EA7F /* HLOptionContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9651810240400B4EA7F /* HLOptionContent.m */; };
 		3E4ED9931810240400B4EA7F /* HLWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9671810240400B4EA7F /* HLWords.m */; };
 		3E4ED9941810240400B4EA7F /* myStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4ED9681810240400B4EA7F /* myStoryboard.storyboard */; };
-		3E4ED9951810240400B4EA7F /* AccelerationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED96B1810240400B4EA7F /* AccelerationAnimation.m */; };
-		3E4ED9961810240400B4EA7F /* Evaluate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED96D1810240400B4EA7F /* Evaluate.m */; };
-		3E4ED9971810240400B4EA7F /* REBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED96F1810240400B4EA7F /* REBackgroundView.m */; };
-		3E4ED9981810240400B4EA7F /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9711810240400B4EA7F /* RESideMenu.m */; };
-		3E4ED9991810240400B4EA7F /* RESideMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9731810240400B4EA7F /* RESideMenuCell.m */; };
-		3E4ED99A1810240400B4EA7F /* RESideMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9751810240400B4EA7F /* RESideMenuItem.m */; };
-		3E4ED99B1810240400B4EA7F /* UIWindow+RESideMenuExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9771810240400B4EA7F /* UIWindow+RESideMenuExtensions.m */; };
 		3E4ED99C1810240400B4EA7F /* SHUAboutusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9791810240400B4EA7F /* SHUAboutusViewController.m */; };
 		3E4ED99D1810240400B4EA7F /* SHUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED97B1810240400B4EA7F /* SHUAppDelegate.m */; };
 		3E4ED99F1810240400B4EA7F /* SHUCorrectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED97F1810240400B4EA7F /* SHUCorrectViewController.m */; };
 		3E4ED9A01810240400B4EA7F /* SHUNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9811810240400B4EA7F /* SHUNoteViewController.m */; };
-		3E4ED9A11810240400B4EA7F /* SHURootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9831810240400B4EA7F /* SHURootViewController.m */; };
 		3E4ED9A21810240400B4EA7F /* SHUSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9851810240400B4EA7F /* SHUSettingViewController.m */; };
 		3E4ED9A31810240400B4EA7F /* SHUVistaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9871810240400B4EA7F /* SHUVistaViewController.m */; };
 		3E4ED9A41810240400B4EA7F /* SHUWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED9891810240400B4EA7F /* SHUWelcomeViewController.m */; };
@@ -50,6 +42,13 @@
 		3E8E7F1A18127955000D8FEC /* PICircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E7F1918127955000D8FEC /* PICircularProgressView.m */; };
 		3E94129A1812EDD1009BD058 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9412991812EDD1009BD058 /* Images.xcassets */; };
 		3E94129E1812F491009BD058 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E94129D1812F491009BD058 /* AVFoundation.framework */; };
+		3EAE5AF0182F625D00AC4960 /* HLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE5AEF182F625D00AC4960 /* HLRootViewController.m */; };
+		3EAE5AF3182F62C900AC4960 /* HLMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE5AF2182F62C900AC4960 /* HLMenuViewController.m */; };
+		3EAE5AF5182F74FF00AC4960 /* Images2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAE5AF4182F74FF00AC4960 /* Images2.xcassets */; };
+		3EAE5AFF182F7A5600AC4960 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE5AFA182F7A5600AC4960 /* RECommonFunctions.m */; };
+		3EAE5B00182F7A5600AC4960 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE5AFC182F7A5600AC4960 /* RESideMenu.m */; };
+		3EAE5B01182F7A5600AC4960 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE5AFE182F7A5600AC4960 /* UIViewController+RESideMenu.m */; };
+		3EC6A033181A6C800058841C /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC6A032181A6C800058841C /* iphone.png */; };
 		3EF11495181A20FC00BDC230 /* myStoryboard_2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF11494181A20FC00BDC230 /* myStoryboard_2.storyboard */; };
 		A22D50A0181434B80021E7B5 /* 8969912_092626493627_2副本7 4.tif in Resources */ = {isa = PBXBuildFile; fileRef = A22D5089181434B80021E7B5 /* 8969912_092626493627_2副本7 4.tif */; };
 		A22D50A1181434B80021E7B5 /* 8969912_092626493627_2副本7.tif in Resources */ = {isa = PBXBuildFile; fileRef = A22D508A181434B80021E7B5 /* 8969912_092626493627_2副本7.tif */; };
@@ -121,20 +120,6 @@
 		3E4ED9661810240400B4EA7F /* HLWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLWords.h; path = Tango/HLWords.h; sourceTree = "<group>"; };
 		3E4ED9671810240400B4EA7F /* HLWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLWords.m; path = Tango/HLWords.m; sourceTree = "<group>"; };
 		3E4ED9681810240400B4EA7F /* myStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = myStoryboard.storyboard; path = Tango/myStoryboard.storyboard; sourceTree = "<group>"; };
-		3E4ED96A1810240400B4EA7F /* AccelerationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerationAnimation.h; sourceTree = "<group>"; };
-		3E4ED96B1810240400B4EA7F /* AccelerationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerationAnimation.m; sourceTree = "<group>"; };
-		3E4ED96C1810240400B4EA7F /* Evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evaluate.h; sourceTree = "<group>"; };
-		3E4ED96D1810240400B4EA7F /* Evaluate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Evaluate.m; sourceTree = "<group>"; };
-		3E4ED96E1810240400B4EA7F /* REBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REBackgroundView.h; sourceTree = "<group>"; };
-		3E4ED96F1810240400B4EA7F /* REBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REBackgroundView.m; sourceTree = "<group>"; };
-		3E4ED9701810240400B4EA7F /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
-		3E4ED9711810240400B4EA7F /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
-		3E4ED9721810240400B4EA7F /* RESideMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenuCell.h; sourceTree = "<group>"; };
-		3E4ED9731810240400B4EA7F /* RESideMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenuCell.m; sourceTree = "<group>"; };
-		3E4ED9741810240400B4EA7F /* RESideMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenuItem.h; sourceTree = "<group>"; };
-		3E4ED9751810240400B4EA7F /* RESideMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenuItem.m; sourceTree = "<group>"; };
-		3E4ED9761810240400B4EA7F /* UIWindow+RESideMenuExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+RESideMenuExtensions.h"; sourceTree = "<group>"; };
-		3E4ED9771810240400B4EA7F /* UIWindow+RESideMenuExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+RESideMenuExtensions.m"; sourceTree = "<group>"; };
 		3E4ED9781810240400B4EA7F /* SHUAboutusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHUAboutusViewController.h; path = Tango/SHUAboutusViewController.h; sourceTree = "<group>"; };
 		3E4ED9791810240400B4EA7F /* SHUAboutusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHUAboutusViewController.m; path = Tango/SHUAboutusViewController.m; sourceTree = "<group>"; };
 		3E4ED97A1810240400B4EA7F /* SHUAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHUAppDelegate.h; path = Tango/SHUAppDelegate.h; sourceTree = "<group>"; };
@@ -143,8 +128,6 @@
 		3E4ED97F1810240400B4EA7F /* SHUCorrectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHUCorrectViewController.m; path = Tango/SHUCorrectViewController.m; sourceTree = "<group>"; };
 		3E4ED9801810240400B4EA7F /* SHUNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHUNoteViewController.h; path = Tango/SHUNoteViewController.h; sourceTree = "<group>"; };
 		3E4ED9811810240400B4EA7F /* SHUNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHUNoteViewController.m; path = Tango/SHUNoteViewController.m; sourceTree = "<group>"; };
-		3E4ED9821810240400B4EA7F /* SHURootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHURootViewController.h; path = Tango/SHURootViewController.h; sourceTree = "<group>"; };
-		3E4ED9831810240400B4EA7F /* SHURootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHURootViewController.m; path = Tango/SHURootViewController.m; sourceTree = "<group>"; };
 		3E4ED9841810240400B4EA7F /* SHUSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHUSettingViewController.h; path = Tango/SHUSettingViewController.h; sourceTree = "<group>"; };
 		3E4ED9851810240400B4EA7F /* SHUSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHUSettingViewController.m; path = Tango/SHUSettingViewController.m; sourceTree = "<group>"; };
 		3E4ED9861810240400B4EA7F /* SHUVistaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHUVistaViewController.h; path = Tango/SHUVistaViewController.h; sourceTree = "<group>"; };
@@ -174,6 +157,18 @@
 		3E8E7F1918127955000D8FEC /* PICircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PICircularProgressView.m; sourceTree = "<group>"; };
 		3E9412991812EDD1009BD058 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E94129D1812F491009BD058 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3EAE5AEE182F625D00AC4960 /* HLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLRootViewController.h; sourceTree = "<group>"; };
+		3EAE5AEF182F625D00AC4960 /* HLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLRootViewController.m; sourceTree = "<group>"; };
+		3EAE5AF1182F62C900AC4960 /* HLMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMenuViewController.h; sourceTree = "<group>"; };
+		3EAE5AF2182F62C900AC4960 /* HLMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMenuViewController.m; sourceTree = "<group>"; };
+		3EAE5AF4182F74FF00AC4960 /* Images2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images2.xcassets; sourceTree = "<group>"; };
+		3EAE5AF9182F7A5600AC4960 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		3EAE5AFA182F7A5600AC4960 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		3EAE5AFB182F7A5600AC4960 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		3EAE5AFC182F7A5600AC4960 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		3EAE5AFD182F7A5600AC4960 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		3EAE5AFE182F7A5600AC4960 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		3EC6A032181A6C800058841C /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
 		3EF11494181A20FC00BDC230 /* myStoryboard_2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = myStoryboard_2.storyboard; sourceTree = "<group>"; };
 		A22D5089181434B80021E7B5 /* 8969912_092626493627_2副本7 4.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "8969912_092626493627_2副本7 4.tif"; sourceTree = "<group>"; };
 		A22D508A181434B80021E7B5 /* 8969912_092626493627_2副本7.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "8969912_092626493627_2副本7.tif"; sourceTree = "<group>"; };
@@ -277,6 +272,7 @@
 		3E4ED9381810238000B4EA7F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3EAE5AF4182F74FF00AC4960 /* Images2.xcassets */,
 				A22D5088181434AC0021E7B5 /* Pic */,
 				3E9412991812EDD1009BD058 /* Images.xcassets */,
 				3E4ED9391810238000B4EA7F /* Supporting Files */,
@@ -312,28 +308,6 @@
 				3E4ED9541810238100B4EA7F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3E4ED9691810240400B4EA7F /* RESideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				3E4ED96A1810240400B4EA7F /* AccelerationAnimation.h */,
-				3E4ED96B1810240400B4EA7F /* AccelerationAnimation.m */,
-				3E4ED96C1810240400B4EA7F /* Evaluate.h */,
-				3E4ED96D1810240400B4EA7F /* Evaluate.m */,
-				3E4ED96E1810240400B4EA7F /* REBackgroundView.h */,
-				3E4ED96F1810240400B4EA7F /* REBackgroundView.m */,
-				3E4ED9701810240400B4EA7F /* RESideMenu.h */,
-				3E4ED9711810240400B4EA7F /* RESideMenu.m */,
-				3E4ED9721810240400B4EA7F /* RESideMenuCell.h */,
-				3E4ED9731810240400B4EA7F /* RESideMenuCell.m */,
-				3E4ED9741810240400B4EA7F /* RESideMenuItem.h */,
-				3E4ED9751810240400B4EA7F /* RESideMenuItem.m */,
-				3E4ED9761810240400B4EA7F /* UIWindow+RESideMenuExtensions.h */,
-				3E4ED9771810240400B4EA7F /* UIWindow+RESideMenuExtensions.m */,
-			);
-			name = RESideMenu;
-			path = Tango/RESideMenu;
 			sourceTree = "<group>";
 		};
 		3E4ED9AA181024BB00B4EA7F /* Tango */ = {
@@ -454,8 +428,10 @@
 		3E4ED9B71810261700B4EA7F /* RootViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3E4ED9821810240400B4EA7F /* SHURootViewController.h */,
-				3E4ED9831810240400B4EA7F /* SHURootViewController.m */,
+				3EAE5AEE182F625D00AC4960 /* HLRootViewController.h */,
+				3EAE5AEF182F625D00AC4960 /* HLRootViewController.m */,
+				3EAE5AF1182F62C900AC4960 /* HLMenuViewController.h */,
+				3EAE5AF2182F62C900AC4960 /* HLMenuViewController.m */,
 			);
 			name = RootViewControllers;
 			sourceTree = "<group>";
@@ -509,9 +485,23 @@
 			path = PICircularProgressView;
 			sourceTree = "<group>";
 		};
+		3EAE5AF8182F7A5600AC4960 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3EAE5AF9182F7A5600AC4960 /* RECommonFunctions.h */,
+				3EAE5AFA182F7A5600AC4960 /* RECommonFunctions.m */,
+				3EAE5AFB182F7A5600AC4960 /* RESideMenu.h */,
+				3EAE5AFC182F7A5600AC4960 /* RESideMenu.m */,
+				3EAE5AFD182F7A5600AC4960 /* UIViewController+RESideMenu.h */,
+				3EAE5AFE182F7A5600AC4960 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
 		A22D5088181434AC0021E7B5 /* Pic */ = {
 			isa = PBXGroup;
 			children = (
+				3EC6A032181A6C800058841C /* iphone.png */,
 				A23AC5EC181A4C8D007A7A15 /* 未标题-8.png */,
 				A23AC5ED181A4C8D007A7A15 /* 未标题-4.png */,
 				A23AC5EE181A4C8D007A7A15 /* 未标题-7.png */,
@@ -553,9 +543,9 @@
 		A241DEBA1813E14700E798DA /* OpenSource */ = {
 			isa = PBXGroup;
 			children = (
+				3EAE5AF8182F7A5600AC4960 /* RESideMenu */,
 				3E6AD22C181912570075015F /* CXAlertView */,
 				3E8E7F1718127955000D8FEC /* PICircularProgressView */,
-				3E4ED9691810240400B4EA7F /* RESideMenu */,
 			);
 			name = OpenSource;
 			sourceTree = "<group>";
@@ -655,8 +645,10 @@
 			files = (
 				A22D50A7181434B80021E7B5 /* 背景.png in Resources */,
 				A23AC5F8181A4C8D007A7A15 /* 未标题-5.png in Resources */,
+				3EAE5AF5182F74FF00AC4960 /* Images2.xcassets in Resources */,
 				A22D50A5181434B80021E7B5 /* 按钮2 2.png in Resources */,
 				A23AC5FA181A4C8D007A7A15 /* button1.png in Resources */,
+				3EC6A033181A6C800058841C /* iphone.png in Resources */,
 				A22D50A0181434B80021E7B5 /* 8969912_092626493627_2副本7 4.tif in Resources */,
 				A22D50BC181450060021E7B5 /* bgPic2.png in Resources */,
 				A22D50A1181434B80021E7B5 /* 8969912_092626493627_2副本7.tif in Resources */,
@@ -713,34 +705,31 @@
 			files = (
 				3E4ED9A51810240400B4EA7F /* SHUWordMenuViewController.m in Sources */,
 				3E4ED9A21810240400B4EA7F /* SHUSettingViewController.m in Sources */,
-				3E4ED99B1810240400B4EA7F /* UIWindow+RESideMenuExtensions.m in Sources */,
-				3E4ED9981810240400B4EA7F /* RESideMenu.m in Sources */,
 				3E8E7F1A18127955000D8FEC /* PICircularProgressView.m in Sources */,
 				3E4ED9A41810240400B4EA7F /* SHUWelcomeViewController.m in Sources */,
 				3E4ED99F1810240400B4EA7F /* SHUCorrectViewController.m in Sources */,
 				3E6AD241181912570075015F /* LFDisplayBridge.m in Sources */,
+				3EAE5AFF182F7A5600AC4960 /* RECommonFunctions.m in Sources */,
 				3E6AD23E181912570075015F /* CXAlertButtonItem.m in Sources */,
-				3E4ED9991810240400B4EA7F /* RESideMenuCell.m in Sources */,
+				3EAE5B01182F7A5600AC4960 /* UIViewController+RESideMenu.m in Sources */,
+				3EAE5AF3182F62C900AC4960 /* HLMenuViewController.m in Sources */,
 				3E4ED99C1810240400B4EA7F /* SHUAboutusViewController.m in Sources */,
 				A26CE20C1818049400EF68A8 /* SHUListeningViewController.m in Sources */,
-				3E4ED9971810240400B4EA7F /* REBackgroundView.m in Sources */,
 				3E4ED9A01810240400B4EA7F /* SHUNoteViewController.m in Sources */,
 				3E6AD240181912570075015F /* CXAlertViewController.m in Sources */,
 				3E6AD242181912570075015F /* LFGlassView.m in Sources */,
 				3E6AD23F181912570075015F /* CXAlertView.m in Sources */,
 				3E4ED99D1810240400B4EA7F /* SHUAppDelegate.m in Sources */,
-				3E4ED9A11810240400B4EA7F /* SHURootViewController.m in Sources */,
 				A241DEC11813E53000E798DA /* SHUCloudDocument.m in Sources */,
-				3E4ED9951810240400B4EA7F /* AccelerationAnimation.m in Sources */,
 				3E4ED9921810240400B4EA7F /* HLOptionContent.m in Sources */,
-				3E4ED99A1810240400B4EA7F /* RESideMenuItem.m in Sources */,
+				3EAE5B00182F7A5600AC4960 /* RESideMenu.m in Sources */,
 				3E4ED9911810240400B4EA7F /* HLOptionButton.m in Sources */,
 				3E6AD23D181912570075015F /* CXAlertButtonContainerView.m in Sources */,
 				3E4ED93F1810238000B4EA7F /* main.m in Sources */,
-				3E4ED9961810240400B4EA7F /* Evaluate.m in Sources */,
 				3E4ED9931810240400B4EA7F /* HLWords.m in Sources */,
 				3E4ED9A31810240400B4EA7F /* SHUVistaViewController.m in Sources */,
 				3E6AD23C181912570075015F /* CXAlertBackgroundWindow.m in Sources */,
+				3EAE5AF0182F625D00AC4960 /* HLRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,7 +847,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
 				CODE_SIGN_ENTITLEMENTS = Tango.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -876,7 +865,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
 				CODE_SIGN_ENTITLEMENTS = Tango.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

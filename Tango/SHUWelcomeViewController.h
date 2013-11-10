@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SHURootViewController.h"
+#import "RESideMenu.h"
 #import "PICircularProgressView.h"
-@interface SHUWelcomeViewController : SHURootViewController
+@interface SHUWelcomeViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *studiedToday;
 @property (weak, nonatomic) IBOutlet UILabel *isMasteredToday;

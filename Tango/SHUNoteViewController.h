@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "RESideMenu.h"
 @interface SHUNoteViewController : UITableViewController
 
 @property (weak, nonatomic) id sideMenuHolder;

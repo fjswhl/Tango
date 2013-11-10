@@ -1,5 +1,5 @@
 //
-// RESideMenuCell.h
+// UIViewController+RESideMenu.h
 // RESideMenu
 //
 // Copyright (c) 2013 Roman Efimov (https://github.com/romaonthego)
@@ -25,8 +25,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RESideMenuCell : UITableViewCell
+@class RESideMenu;
 
-@property (assign, readwrite, nonatomic) CGFloat horizontalOffset;
+@interface UIViewController (RESideMenu)
+
+@property (strong, readonly, nonatomic) RESideMenu *sideMenuViewController;
+
+- (void)re_displayController:(UIViewController *)controller frame:(CGRect)frame;
+- (void)re_hideController:(UIViewController *)controller;
 
 @end

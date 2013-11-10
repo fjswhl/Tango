@@ -7,7 +7,6 @@
 //
 
 #import "SHUNoteViewController.h"
-#import "SHURootViewController.h"
 #import "SHUListeningViewController.h"
 #import "SHUCorrectViewController.h"
 #import "SHUAppDelegate.h"
@@ -94,7 +93,7 @@
 }
 
 - (IBAction)backToMenu:(id)sender {
-    [self.sideMenuHolder showMenu];
+    [self.sideMenuViewController presentMenuViewController];
 }
 
 #pragma mark - SQLite

@@ -1,5 +1,5 @@
 //
-//  RESideMenu.h
+// RECommonFunctions.m
 // RESideMenu
 //
 // Copyright (c) 2013 Roman Efimov (https://github.com/romaonthego)
@@ -23,29 +23,27 @@
 // THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
-#import <QuartzCore/QuartzCore.h>
-#import "UIWindow+RESideMenuExtensions.h"
-#import "REBackgroundView.h"
-#import "RESideMenuCell.h"
-#import "RESideMenuItem.h"
+#import "RECommonFunctions.h"
 
-@interface RESideMenu : NSObject <UITableViewDataSource, UITableViewDelegate>
+BOOL REDeviceIsUIKit7()
+{
+    return REUIKitIsFlatMode();
+}
 
-@property (strong, readonly, nonatomic) NSArray *items;
-@property (assign, readwrite, nonatomic) CGFloat verticalOffset;
-@property (assign, readwrite, nonatomic) CGFloat horizontalOffset;
-@property (assign, readwrite, nonatomic) CGFloat itemHeight;
-@property (strong, readwrite, nonatomic) UIFont *font;
-@property (strong, readwrite, nonatomic) UIColor *textColor;
-@property (strong, readwrite, nonatomic) UIColor *highlightedTextColor;
-@property (strong, readwrite, nonatomic) UIImage *backgroundImage;
-@property (assign, readwrite, nonatomic) BOOL hideStatusBarArea;
-@property (assign, readwrite, nonatomic) BOOL isShowing;
-
-- (id)initWithItems:(NSArray *)items;
-- (void)show;
-- (void)hide;
-- (void)setRootViewController:(UIViewController *)viewController;
-
-@end
+BOOL REUIKitIsFlatMode()
+{
+    static BOOL isUIKitFlatMode = NO;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if (floor(NSFoundationVersionNumber) > 993.0) {
+            // If your app is running in legacy mode, tintColor will be nil - else it must be set to some color.
+            if (UIApplication.sharedApplication.keyWindow) {
+                isUIKitFlatMode = [UIApplication.sharedApplication.delegate.window performSelector:@selector(tintColor)] != nil;
+            } else {
+                // Possible that we're called early on (e.g. when used in a Storyboard). Adapt and use a temporary window.
+                isUIKitFlatMode = [[UIWindow new] performSelector:@selector(tintColor)] != nil;
+            }
+        }
+    });
+    return isUIKitFlatMode;
+}

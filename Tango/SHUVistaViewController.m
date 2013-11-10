@@ -242,7 +242,7 @@
 
 - (IBAction)isTooEasy:(id)sender{
     sqlite3 *wordDatabase = [SHUAppDelegate sharedDatabase];
-    const char *updateIsMastered = "update word_tbl set is_mastered = 1 where word_id = ?;";
+    const char *updateIsMastered = "update word_tbl set is_mastered = 1,is_mastered_today = 1 where word_id = ?;";
     sqlite3_stmt *updateIsMasteredStmt;
     if (sqlite3_prepare_v2(wordDatabase, updateIsMastered, -1, &updateIsMasteredStmt, NULL) == SQLITE_OK) {
         sqlite3_bind_int(updateIsMasteredStmt, 1, self.word.wordID);
@@ -256,7 +256,7 @@
 }
 
 - (IBAction)backToMenu:(id)sender {
-    [self showMenu];
+    [self.sideMenuViewController presentMenuViewController];
 }
 
 #pragma mark - speech

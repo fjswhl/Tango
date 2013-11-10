@@ -6,11 +6,11 @@
 //  Copyright (c) 2013年 Shuyu. All rights reserved.
 //
 
-#import "SHURootViewController.h"
 #import "HLWords.h"
 #import "HLOptionButton.h"
 #import <AVFoundation/AVFoundation.h>
-@interface SHUVistaViewController : SHURootViewController<AVSpeechSynthesizerDelegate>
+#import "RESideMenu.h"
+@interface SHUVistaViewController : UIViewController<AVSpeechSynthesizerDelegate>
 
 @property (strong, nonatomic) HLWords *word;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *wordForChoose;
