@@ -6,6 +6,7 @@
 //  Copyright (c) 2013年 Shuyu. All rights reserved.
 //
 
+// test
 #import "SHUAppDelegate.h"
 static sqlite3 *database;
 @implementation SHUAppDelegate
