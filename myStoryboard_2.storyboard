@@ -950,7 +950,7 @@ COiDjOipnuS4rQ
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" placeholderIntrinsicWidth="235" placeholderIntrinsicHeight="2" progressImage="C6154315-0816-4512-AEC1-680A74F21F85" translatesAutoresizingMaskIntoConstraints="NO" id="A0l-Kn-TX3">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" placeholderIntrinsicWidth="235" placeholderIntrinsicHeight="2" progressImage="5998EEC7-7E99-48DB-9EAE-7F68B829626A" translatesAutoresizingMaskIntoConstraints="NO" id="A0l-Kn-TX3">
                                 <rect key="frame" x="40" y="502" width="235" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1208,8 +1208,7 @@ COiDjOipnuS4rQ
         </scene>
     </scenes>
     <resources>
-        <image name="8969912_092626493627_2副本7 4.tif" width="188" height="220"/>
-        <image name="C6154315-0816-4512-AEC1-680A74F21F85" width="400" height="400">
+        <image name="5998EEC7-7E99-48DB-9EAE-7F68B829626A" width="400" height="400">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -11929,6 +11928,7 @@ Cc3iAAnN5wAJzfYACc36AAnOAQAJzgkACc4WAAnOGwAJzh0ACc4fAAnOJAAJziwACc4vAAnONAAJzjwA
 Cc4/AAnOUQAJzlQACc5ZAAAAAAAABAEAAAAAAAAAQgAAAAAAAAAAAAAAAAAJzls
 </mutableData>
         </image>
+        <image name="8969912_092626493627_2副本7 4.tif" width="188" height="220"/>
         <image name="Slect-2.png" width="320" height="100"/>
         <image name="button1.png" width="320" height="100"/>
         <image name="high-volume-vector副本2.png" width="512" height="512"/>
