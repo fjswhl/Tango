@@ -54,7 +54,7 @@
     self.isMasteredTotal.text = [NSString stringWithFormat:@"%i", numberOfWordsMasteredTotal];
     self.wordsTotal.text = [NSString stringWithFormat:@"%i", numberOfWordsTotal];
     self.studyProgress.progress = (float)numberOfWordsMasteredTotal / (float)numberOfWordsTotal;
-    self.todayProgress.progress = 0.5f;
+    self.todayProgress.progress = 0.0f;
     
     NSDate *date = [[NSUserDefaults standardUserDefaults] objectForKey:@"completionDate"];
     if (date) {
@@ -161,7 +161,7 @@
     return result;
 }
 
-
+#pragma mark - Progress Precess Method
 - (void)processTodayProgress{
     NSDate *today = [NSDate date];
     NSDate *completionDate = (NSDate *)[[NSUserDefaults standardUserDefaults] objectForKey:@"completionDate"];
@@ -175,8 +175,9 @@
     _requiredStudiedToday = (numberOfWordsTotal - numberOfWordsStudiedTotal) / daysInterval;
     _requiredMasteredToday = (numberOfWordsTotal - numberOfWordsMasteredTotal) / daysInterval;
     
-    
-    _todayProgress.progress = ((float)numberOfWordsMasteredToday / (float)_requiredMasteredToday) + ((float)numberOfWordsStudiedToday / (float)_requiredStudiedToday / 15);
+    [self.todayProgress setProgress:((float)numberOfWordsMasteredToday / (float)_requiredMasteredToday) + ((float)numberOfWordsStudiedToday / (float)_requiredStudiedToday / 15) animated:YES];
+//    [self.todayProgress setProgress:1.0f];
+//    NSLog(@"%@", self.todayProgress);
 }
 @end
 

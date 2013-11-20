@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "RESideMenu.h"
 #import "PICircularProgressView.h"
+#import "MRCircularProgressView.h"
 @interface SHUWelcomeViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *studiedToday;
@@ -18,6 +19,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *wordsTotal;
 @property (weak, nonatomic) IBOutlet UIProgressView *studyProgress;
 
-@property (weak, nonatomic) IBOutlet PICircularProgressView *todayProgress;
+//@property (weak, nonatomic) IBOutlet PICircularProgressView *todayProgress;
+@property (weak, nonatomic) IBOutlet MRCircularProgressView *todayProgress;
+
 
 @end

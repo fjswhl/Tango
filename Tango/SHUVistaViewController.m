@@ -32,14 +32,14 @@
 
 - (void)speechWithString:(NSString *)string;
 
-@property (weak, nonatomic) IBOutlet UILabel *chnForJP_1;
-@property (weak, nonatomic) IBOutlet UILabel *kanForJP_1;
-@property (weak, nonatomic) IBOutlet UILabel *chnForJP_2;
-@property (weak, nonatomic) IBOutlet UILabel *kanForJP_2;
-@property (weak, nonatomic) IBOutlet UILabel *chnForJP_3;
-@property (weak, nonatomic) IBOutlet UILabel *kanForJP_3;
-@property (weak, nonatomic) IBOutlet UILabel *chnForJP_4;
-@property (weak, nonatomic) IBOutlet UILabel *kanForJP_4;
+@property (strong, nonatomic) IBOutlet UILabel *chnForJP_1;
+@property (strong, nonatomic) IBOutlet UILabel *kanForJP_1;
+@property (strong, nonatomic) IBOutlet UILabel *chnForJP_2;
+@property (strong, nonatomic) IBOutlet UILabel *kanForJP_2;
+@property (strong, nonatomic) IBOutlet UILabel *chnForJP_3;
+@property (strong, nonatomic) IBOutlet UILabel *kanForJP_3;
+@property (strong, nonatomic) IBOutlet UILabel *chnForJP_4;
+@property (strong, nonatomic) IBOutlet UILabel *kanForJP_4;
 
 @end
 
@@ -61,6 +61,7 @@
     //    //如果是复习界面，则以复习为条件筛选单词
     //    self.word = [[HLWords alloc] initWithConditons:FORWORD];
     [self performNewWordAndOptions];
+    
 }
 
 - (void)viewDidDisappear:(BOOL)animated{
