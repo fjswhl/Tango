@@ -62,6 +62,12 @@
 		3EC6A033181A6C800058841C /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC6A032181A6C800058841C /* iphone.png */; };
 		3EDE17AB183140A3000E4339 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4ED9361810238000B4EA7F /* UIKit.framework */; };
 		3EF11495181A20FC00BDC230 /* myStoryboard_2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF11494181A20FC00BDC230 /* myStoryboard_2.storyboard */; };
+		3EF7CAB7183E2828001F05E8 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7CAB1183E2828001F05E8 /* book.png */; };
+		3EF7CAB8183E2828001F05E8 /* 倒計時.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7CAB2183E2828001F05E8 /* 倒計時.png */; };
+		3EF7CAB9183E2828001F05E8 /* date.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7CAB3183E2828001F05E8 /* date.png */; };
+		3EF7CABA183E2828001F05E8 /* 图标4 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7CAB4183E2828001F05E8 /* 图标4 3.png */; };
+		3EF7CABB183E2828001F05E8 /* 重置進度.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7CAB5183E2828001F05E8 /* 重置進度.png */; };
+		3EF7CABC183E2828001F05E8 /* iCloud同步.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7CAB6183E2828001F05E8 /* iCloud同步.png */; };
 		A22D50A0181434B80021E7B5 /* 8969912_092626493627_2副本7 4.tif in Resources */ = {isa = PBXBuildFile; fileRef = A22D5089181434B80021E7B5 /* 8969912_092626493627_2副本7 4.tif */; };
 		A22D50A1181434B80021E7B5 /* 8969912_092626493627_2副本7.tif in Resources */ = {isa = PBXBuildFile; fileRef = A22D508A181434B80021E7B5 /* 8969912_092626493627_2副本7.tif */; };
 		A22D50A2181434B80021E7B5 /* high-volume-vector.png in Resources */ = {isa = PBXBuildFile; fileRef = A22D508B181434B80021E7B5 /* high-volume-vector.png */; };
@@ -205,6 +211,12 @@
 		3EAE5AFE182F7A5600AC4960 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
 		3EC6A032181A6C800058841C /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
 		3EF11494181A20FC00BDC230 /* myStoryboard_2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = myStoryboard_2.storyboard; sourceTree = "<group>"; };
+		3EF7CAB1183E2828001F05E8 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		3EF7CAB2183E2828001F05E8 /* 倒計時.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "倒計時.png"; sourceTree = "<group>"; };
+		3EF7CAB3183E2828001F05E8 /* date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date.png; sourceTree = "<group>"; };
+		3EF7CAB4183E2828001F05E8 /* 图标4 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标4 3.png"; sourceTree = "<group>"; };
+		3EF7CAB5183E2828001F05E8 /* 重置進度.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重置進度.png"; sourceTree = "<group>"; };
+		3EF7CAB6183E2828001F05E8 /* iCloud同步.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iCloud同步.png"; sourceTree = "<group>"; };
 		A22D5089181434B80021E7B5 /* 8969912_092626493627_2副本7 4.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "8969912_092626493627_2副本7 4.tif"; sourceTree = "<group>"; };
 		A22D508A181434B80021E7B5 /* 8969912_092626493627_2副本7.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "8969912_092626493627_2副本7.tif"; sourceTree = "<group>"; };
 		A22D508B181434B80021E7B5 /* high-volume-vector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "high-volume-vector.png"; sourceTree = "<group>"; };
@@ -492,6 +504,12 @@
 		3E62E359183D129700C3AA9D /* PIC */ = {
 			isa = PBXGroup;
 			children = (
+				3EF7CAB1183E2828001F05E8 /* book.png */,
+				3EF7CAB2183E2828001F05E8 /* 倒計時.png */,
+				3EF7CAB3183E2828001F05E8 /* date.png */,
+				3EF7CAB4183E2828001F05E8 /* 图标4 3.png */,
+				3EF7CAB5183E2828001F05E8 /* 重置進度.png */,
+				3EF7CAB6183E2828001F05E8 /* iCloud同步.png */,
 				3E62E35A183D129700C3AA9D /* 1.png */,
 				3E62E35B183D129700C3AA9D /* 2.png */,
 				3E62E35C183D129700C3AA9D /* 蓝色光影.jpg */,
@@ -751,12 +769,14 @@
 				A22D50A0181434B80021E7B5 /* 8969912_092626493627_2副本7 4.tif in Resources */,
 				A22D50BC181450060021E7B5 /* bgPic2.png in Resources */,
 				A22D50A1181434B80021E7B5 /* 8969912_092626493627_2副本7.tif in Resources */,
+				3EF7CABA183E2828001F05E8 /* 图标4 3.png in Resources */,
 				A22D50A6181434B80021E7B5 /* 按钮2.png in Resources */,
 				A241DEC31813F44300E798DA /* Tango.entitlements in Resources */,
 				3EF11495181A20FC00BDC230 /* myStoryboard_2.storyboard in Resources */,
 				3E94129A1812EDD1009BD058 /* Images.xcassets in Resources */,
 				A23AC5F4181A4C8D007A7A15 /* 未标题-8.png in Resources */,
 				A22D50AB181434B80021E7B5 /* 不會1.png in Resources */,
+				3EF7CAB7183E2828001F05E8 /* book.png in Resources */,
 				A23AC5F7181A4C8D007A7A15 /* 未标题-6.png in Resources */,
 				A22D50B2181434B80021E7B5 /* 图标2.png in Resources */,
 				A23AC5FB181A4C8D007A7A15 /* Slect-2.png in Resources */,
@@ -764,6 +784,8 @@
 				3E62E35D183D129700C3AA9D /* 1.png in Resources */,
 				A22D50AE181434B80021E7B5 /* 太弱1.png in Resources */,
 				A22D50BA18144E9E0021E7B5 /* Welcome.png in Resources */,
+				3EF7CABB183E2828001F05E8 /* 重置進度.png in Resources */,
+				3EF7CAB8183E2828001F05E8 /* 倒計時.png in Resources */,
 				3E62E35E183D129700C3AA9D /* 2.png in Resources */,
 				A22D50B3181434B80021E7B5 /* 图标3.png in Resources */,
 				A22D50AD181434B80021E7B5 /* 太弱.png in Resources */,
@@ -774,6 +796,7 @@
 				A22D50B0181434B80021E7B5 /* 图标.png in Resources */,
 				A22D50A4181434B80021E7B5 /* 按钮 3.png in Resources */,
 				A22D50B6181434B80021E7B5 /* 图标4.png in Resources */,
+				3EF7CABC183E2828001F05E8 /* iCloud同步.png in Resources */,
 				A23AC5F9181A4C8D007A7A15 /* 未标题-3.png in Resources */,
 				3E4ED93D1810238000B4EA7F /* InfoPlist.strings in Resources */,
 				3E4ED9941810240400B4EA7F /* myStoryboard.storyboard in Resources */,
@@ -785,6 +808,7 @@
 				A22D50AF181434B80021E7B5 /* 图标 2.png in Resources */,
 				A23AC5F6181A4C8D007A7A15 /* 未标题-7.png in Resources */,
 				3E4F3DFF181945590062E63B /* high-volume-vector副本2.png in Resources */,
+				3EF7CAB9183E2828001F05E8 /* date.png in Resources */,
 				A22D50B5181434B80021E7B5 /* 图标4 3.png in Resources */,
 				3E62E35F183D129700C3AA9D /* 蓝色光影.jpg in Resources */,
 			);

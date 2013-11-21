@@ -19,7 +19,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *wordsTotal;
 @property (weak, nonatomic) IBOutlet UIProgressView *studyProgress;
 
-//@property (weak, nonatomic) IBOutlet PICircularProgressView *todayProgress;
 @property (weak, nonatomic) IBOutlet MRCircularProgressView *todayProgress;
 
 

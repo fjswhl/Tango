@@ -176,8 +176,6 @@
     _requiredMasteredToday = (numberOfWordsTotal - numberOfWordsMasteredTotal) / daysInterval;
     
     [self.todayProgress setProgress:((float)numberOfWordsMasteredToday / (float)_requiredMasteredToday) + ((float)numberOfWordsStudiedToday / (float)_requiredStudiedToday / 15) animated:YES];
-//    [self.todayProgress setProgress:1.0f];
-//    NSLog(@"%@", self.todayProgress);
 }
 @end
 
