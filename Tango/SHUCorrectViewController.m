@@ -101,6 +101,7 @@
         [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
         dispatch_async(dispatch_get_main_queue(), ^{
             _egSentenceInChn.text = targetText;
+            _egSentenceInChn.hidden = NO;
             [self.indicator stopAnimating];
         });
     });
